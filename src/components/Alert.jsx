@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Alert.css";
 
-function Alert({ message }) {
+function Alert({ message, duration = 2500 }) {
   const [showAlert, setShowAlert] = useState(false);
   useEffect(() => {
     setTimeout(() => {
@@ -9,7 +9,7 @@ function Alert({ message }) {
     }, 100);
     setTimeout(() => {
       setShowAlert(false);
-    }, 2000);
+    }, duration);
   }, []);
 
   return (
