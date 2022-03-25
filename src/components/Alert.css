@@ -1,0 +1,27 @@
+.alert-container {
+  position: absolute;
+  width: 30%;
+  min-height: 33px;
+  left: 35%;
+  top: 0;
+}
+
+.alert-container .alert {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: inherit;
+  width: 97%;
+  transition: top 2s;
+}
+
+.alert-container .show-alert {
+  top: 0;
+  transition: top 0.5s;
+}
+
+.alert-container .hide-alert {
+  top: -43px;
+  transition: top 0.5s;
+}
