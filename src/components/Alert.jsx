@@ -29,8 +29,8 @@ function Alert({
           {message}
           {closable && (
             <div className="close" onClick={handleClose}>
-              <div className="first-line"></div>
-              <div className="second-line"></div>
+              <div className="line first-line"></div>
+              <div className="line second-line"></div>
             </div>
           )}
         </div>
