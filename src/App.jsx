@@ -1,5 +1,6 @@
+import Alert from "./components/Alert";
 function App() {
-  return null;
+  return <Alert message="Success message" />;
 }
 
 export default App;
