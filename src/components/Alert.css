@@ -16,6 +16,30 @@
   transition: top 2s;
 }
 
+.alert-container .alert .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.alert-container .alert .close .line {
+  background-color: rgba(0, 0, 0, 0.589);
+  width: 15px;
+  height: 2px;
+  position: inherit;
+  top: 7px;
+}
+.alert-container .alert .close .first-line {
+  transform: rotate(135deg);
+}
+
+.alert-container .alert .close .second-line {
+  transform: rotate(45deg);
+}
+
 .alert-container .show-alert {
   top: 0;
   transition: top 0.5s;
